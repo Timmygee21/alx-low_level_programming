@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include 4-puts.c
 
 /**
  *

@@ -4,7 +4,6 @@
   * main - The entry point for the program
   * Return: The exit code
   */
-
 int main(void)
 {
 	int i;
@@ -24,8 +23,6 @@ int main(void)
 			}
 		}
 	}
-
 	putchar('\n');
-	
 	return (0);
 }

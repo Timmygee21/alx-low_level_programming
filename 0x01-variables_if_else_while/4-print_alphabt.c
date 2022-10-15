@@ -19,7 +19,6 @@ int main(void)
 
 	if (lastDigit > 5)
 		puts("and is greater than 5");
-
 	else if (lastDigit < 6 && lastDigit != 0)
 		puts("and is less than 6 and not 0");
 	else

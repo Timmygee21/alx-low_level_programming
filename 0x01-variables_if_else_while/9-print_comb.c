@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - The entry point for the program
- * Return: The exit code
+ *main - The entry point for the program
+ *Return: The exit code
  */
 
 int main(void)
@@ -13,12 +13,11 @@ int main(void)
 	{
 		putchar('0' + i)
 
-	if (i < 9)
+		if (i < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-	
 	}
 	putchar('\n');
 

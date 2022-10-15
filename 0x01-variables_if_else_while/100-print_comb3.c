@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
   * main - The entry point for the program
@@ -17,13 +16,15 @@ int main(void)
 		{
 			putchar('0' + i);
 			putchar('0' + j);
-																			if (i < 8)
+			
+			if (i < 8)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
+
 	putchar('\n');
 	
 	return (0);

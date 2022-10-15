@@ -6,7 +6,6 @@
  * main - The entry point for the program
  * Return: The exit code
  */
-
 int main(void)
 {
 	int n, lastDigit;

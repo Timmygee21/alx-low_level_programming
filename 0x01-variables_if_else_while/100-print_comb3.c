@@ -1,31 +1,30 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
-  * main - Entyr point
-  * Description: prints two digits combination
-  * Return: Always 0 (success)
-  */
+  * main - The entry point for the program
+  * Return: The exit code
+  */
+
 int main(void)
 {
-	int c, i;
-	for (c = '0'; c <= '9'; c++)
+	int i;
+	int j;
+
+	for (i = 0; i < 10; i++)
 	{
-		for (i = '0'; i <= '9'; i++)
+		for (j = i + 1; j < 10; j++)
 		{
-			if (c < i)
-			{
-				putchar(c);
-				putchar(i);
-	
-			if (c != '8' || (c == '8' && i != '9'))
+			putchar('0' + i);
+			putchar('0' + j);
+																			if (i < 8)
 			{
 				putchar(',');
-				putchar(',');				
+				putchar(' ');
 			}
 		}
 	}
-
 	putchar('\n');
-
+	
 	return (0);
 }

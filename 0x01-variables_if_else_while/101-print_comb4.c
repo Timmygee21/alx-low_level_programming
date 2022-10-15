@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - The entry point for the program
+  * main - The entry point
   * Return: The exit code
   */
 int main(void)

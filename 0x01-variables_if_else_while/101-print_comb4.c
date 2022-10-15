@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
   * main - The entry point for the program
   * Return: The exit code

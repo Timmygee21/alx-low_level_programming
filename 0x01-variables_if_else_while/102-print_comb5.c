@@ -3,7 +3,6 @@
 
 /**
 *main - Entry point
-*Description: prints all combination of digit numbers
 *Return: Always 0 (success)
 **/
 

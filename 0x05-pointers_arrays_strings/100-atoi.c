@@ -1,45 +1,23 @@
-#include "main.h"
+#include "main"
 
 /**
- * _isdigit - checks if character is a digit
- * @s: the character to check
- * Return: 1 if digit, 0 otherwise
- */
-
-int _isdigit(char s)
-{
-	return (s >= '0' && s <= '9');
-}
-
-/**
- * _atoi - converts string to integer
- * @s: the string
- * Return: integer value of string
+ * _atoi - converts a string to an integer
+ * @s: string input parameter
+ * Return: converted integer from string
  */
 
 int _atoi(char *s)
 {
-	int i = 0, neg = 0, d;
-	int num = 0;
-
-	while (s[i])
-	{
-		if (s[i] == '-')
-		{
-			neg++;
-		}
-		else if (_isdigit(s[i]))
-		{
-			while (_isdigit(s[i]))
-			{
-				d = (s[i] - '0');
-				d = neg % 2 ? -d : d;
-				num = num * 10 + d;
-				i++;
-			}
+	unsigned int num = 0;
+	int sign = 1;
+	
+	do {
+		if (*s == '-')
+			sign *= -1;
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+		else if (num > 0)
 			break;
-		}
-		i++;
-	}
-	return (num)
+	} while (*s++);
+	return (num * sign);
 }

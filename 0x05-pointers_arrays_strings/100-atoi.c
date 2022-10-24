@@ -23,7 +23,7 @@ int _atoi(char *s)
 {
 	int i = 0, neg = 0, d;
 	int num = 0;
-	
+
 	while (s[i])
 	{
 		if (s[i] == '-')

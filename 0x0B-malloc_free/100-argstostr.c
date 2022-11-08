@@ -14,12 +14,12 @@ char *argstostr(int ac, char **av)
 {
 	int i, j, k, length;
 	char *str;
-	
+
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	
+
 	/*find length of vector + '\0' which makes it a 2d array*/
-	
+
 	length = 0;
 	for (i = 0; i < ac; i++)
 	{

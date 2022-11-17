@@ -1,1 +1,1 @@
-Function Pointers
+Functions and Pointers

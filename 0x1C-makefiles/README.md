@@ -27,7 +27,7 @@ Create your first Makefile.
    * The `all` rule builds your executable
  * variables: none julien@ubuntu:~/0x1C. Makefiles$ make -f 0-Makefile gcc main.c holberton.c -o holberton
 
-`
+```
 julien@ubuntu:~/0x1C. Makefiles$
 j#0000000000000000000000000000000000000
 j#000000000000000000@Q**g00000000000000
@@ -55,8 +55,7 @@ j#0000000000000k?qwgdC=]4#0000000000000
 j#00000000000000w]+]++qw#00000000000000
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 julien@ubuntu:~/0x1C. Makefiles$
-
-`
+```
 
 # 1. make -f 1-Makefile
 Requirements:
